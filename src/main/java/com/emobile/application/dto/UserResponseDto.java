@@ -1,0 +1,23 @@
+package com.emobile.application.dto;
+
+public class UserResponseDto {
+
+	private Integer requestId;
+	private String message;
+	
+	public Integer getRequestId() {
+		return requestId;
+	}
+	public void setRequestId(Integer requestId) {
+		this.requestId = requestId;
+	}
+	public String getMessage() {
+		return message;
+	}
+	public void setMessage(String message) {
+		this.message = message;
+	}
+	
+	
+	
+}
